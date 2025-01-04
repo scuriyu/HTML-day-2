@@ -1,5 +1,18 @@
-p{
-    background-color: red;
-    width: fit-content;
-    color: white;
+.container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+   
+}
+.box{
+    width:100px;
+    height:100px;
+    color:white;
+    background-color: blue;
+    border:2px solid red;
+
 }
