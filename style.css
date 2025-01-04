@@ -1,8 +1,11 @@
-.container{
+/* flexboc-css */
+/* .container{
     border: 2px solid black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
+    align-content: center;
     height: 100vh;
     flex-wrap: wrap;
     
@@ -15,4 +18,37 @@
     background-color: blue;
     border:2px solid red;
 
+} */
+ body{
+    height: 150vh;
+ }
+ .container{
+    border:2px solid black;
+    
+    margin: 50px;
+    position: relative;
+
+ }
+ .items{
+    width:100px;
+    height:100px;
+    
+ }
+ .box1 {
+    background-color: blue;
+    position: absolute;
+    
+    
+
+}
+.box2{
+    background-color: burlywood;
+    position: relative;
+    z-index: 1;
+}
+.box3{
+    background-color: aqua;
+}
+.box4{
+    background-color: maroon;
 }
